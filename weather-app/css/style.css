@@ -1,0 +1,25 @@
+html{
+  height: 100%;
+  margin: 0, auto;
+}
+
+body{
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:focus{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}

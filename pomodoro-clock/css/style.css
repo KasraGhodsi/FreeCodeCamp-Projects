@@ -1,0 +1,55 @@
+html{
+  height: 100%;
+  margin: 0, auto;
+}
+
+body{
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#clock{
+  font-size: 50px;
+}
+
+.fa{
+  cursor: pointer;
+}
+
+.unselectable{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:focus{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#workBreakText{
+  border: black solid 2px;
+  border-radius: 10px;
+  background-color: #ffb2b2;
+  visibility: hidden;
+}
+
+#attribution{
+  margin-top:30px;
+  font-size: 12px;
+}
+
+#title{
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 30px;
+}

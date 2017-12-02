@@ -1,0 +1,72 @@
+html{
+  height: 100%;
+  margin: 0, auto;
+}
+
+body{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#heading{
+  margin-left: 8%;
+  margin-bottom: 20px;
+  text-align: left;
+  float:left;
+}
+
+#addForm{
+  float: right;
+  margin-right: 8%;
+}
+
+.twitchStreamers{
+  clear: both;
+  border: black solid 1px;
+  margin: 10px 8% 10px 8%;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+}
+
+.offlineStreamers{
+  background-color: #ffb2b2;
+}
+
+.offlineStreamers:hover{
+  background-color: #f98181;
+}
+
+.onlineStreamers{
+  background-color: #d1ffd8;
+}
+
+.onlineStreamers:hover{
+  background-color: #84ff97;
+}
+
+.streamerText{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+#inputButton{
+  cursor: pointer;
+  background-color: white;
+  border: black solid 1px;
+  height: 30 px;
+}
+
+#inputButton:hover{
+  background-color: #c6c6c6;
+}
+
+.fa-times{
+  color: gray;
+  top: 2px;
+  right: 2px;
+  padding-right: 8px;
+}

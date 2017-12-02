@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+  margin: 0, auto;
+}
+
+body{
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#heading{
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:focus{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#content{
+  text-align: left;
+}
+
+.searchResults{
+  border: black solid 1px;
+  margin: 10px 8% 0 8%;
+  cursor: pointer;
+  padding: 15px 5px 0 10px;
+}
+
+.searchResults:hover{
+  background-color:#f4f4f4;
+}
+
+footer{
+  margin-top: 20px;
+}

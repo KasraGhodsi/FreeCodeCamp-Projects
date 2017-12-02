@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<div id="title"><h1>TIC-TAC-TOE</h1></div>
+
+<div id="intro" class="vertical-center unselectable">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          Choose your piece:
+          <input type="radio" name="playerPiece" value="x" checked> X
+          <input type="radio" name="playerPiece" value="o"> O <br>
+          <button type="button" id="introButton" class="playButton btn btn-custom">Play</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="gameBoard" class="vertical-center unselectable">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div id="topLeft" class="contentContainer col-md-1 col-3"><div class="content" id="topLeftContent"></div></div>
+      <div id="top" class="contentContainer col-md-1 col-3"><div class="content" id="topContent"></div></div>
+      <div id="topRight" class="contentContainer col-md-1 col-3"><div class="content" id="topRightContent"></div></div>
+    </div>
+    <div class="row justify-content-center">
+      <div id="centerLeft" class="contentContainer col-md-1 col-3"><div class="content" id="centerLeftContent"></div></div>
+      <div id="center" class="contentContainer col-md-1 col-3"><div class="content" id="centerContent"></div></div>
+      <div id="centerRight" class="contentContainer col-md-1 col-3"><div class="content" id="centerRightContent"></div></div>
+    </div>
+    <div class="row justify-content-center">
+      <div id="bottomLeft" class="contentContainer col-md-1 col-3"><div class="content" id="bottomLeftContent"></div></div>
+      <div id="bottom" class="contentContainer col-md-1 col-3"><div class="content" id="bottomContent"></div></div>
+      <div id="bottomRight" class="contentContainer col-md-1 col-3"><div class="content" id="bottomRightContent"></div></div>
+    </div>
+  </div>
+</div>
+
+<div id="endScreen" class="vertical-center unselectable">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div><h4 id="winner"></h4></div><br>       
+          <button type="button" class="playButton btn btn-custom">Play Again</button>
+          <button type="button" id="restartButton" class="btn btn-custom">Restart</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div id="footer">Coded and designed by Kasra Ghodsi </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> <!--Title Font-->
+</head>
+
+<body>
+  <h1 class="unselectable" id="title">P O M O D O R O</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3"></div> <!--Empty Space-->
+      <div class="unselectable col-md-2 col-4">Break Time</div>
+      <div id="workBreakText" class="unselectable col-md-2 col-4"><b>W O R K</b></div>
+      <div class="unselectable col-md-2 col-4">Work Time</div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div> <!--Empty Space-->
+      <div class="col-md-2 col-4">
+        <i id="breakUp" class="fa fa-2x fa-caret-up" aria-hidden="true"></i>
+        <div class="unselectable" id="breakDisplay">5</div>
+        <i id="breakDown" class="fa fa-2x fa-caret-down" aria-hidden="true"></i>
+      </div>
+      <div class="col-md-2 col-4">
+        <div class="unselectable" id="clock">25:00</div>
+        <div class="unselectable"><button id="startStop" type="button" class="btn btn-outline-primary">Start</button></div>
+      </div>
+      <div class ="col-md-2 col-4">
+        <i id="workUp" class="fa fa-2x fa-caret-up" aria-hidden="true"></i>
+        <div class="unselectable" id="workDisplay">25</div>
+        <i id="workDown" class="fa fa-2x fa-caret-down" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <p id="attribution"> Coded and designed by Kasra Ghodsi. </p>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

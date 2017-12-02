@@ -1,0 +1,123 @@
+html, body{
+  height: 100%;
+  background-color: #fffec6;
+}
+
+.row{
+  display:flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+
+.btn-custom { 
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: black solid 1px;
+  color: black;
+  font-weight:600;
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border-color: #000000; 
+} 
+ 
+.btn-custom:hover, .btn-custom:active, .btn-custom.active{ 
+  color: #000000; 
+  background-color: #EFEFEF; 
+  border-color: #000000; 
+} 
+
+.btn-custom:focus{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.unselectable{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.contentContainer{
+  padding-top:8.158%; /* ~ 1/12 */
+  border: solid black 1px;
+  text-align:center;
+  cursor: pointer;
+  background-color: white;
+}
+
+.contentContainer:hover{
+  background-color:#ededed;
+}
+
+.content{
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 80px;
+}
+
+#introButton{
+  margin-top:10px;
+}
+
+#gameBoard{
+  display:none;
+}
+
+#endScreen{
+  display:none;
+}
+
+#winner{
+  border: black solid 4px;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline;
+}
+
+#title{
+  font-family: 'Permanent Marker', cursive;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #efefef;
+  text-align: center;
+  z-index: 100;
+}
+
+#footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.vertical-center{
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#restartButton{
+  margin-left: 10px;
+}
+
+/* for mobile */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .contentContainer{
+    padding-top:25%;
+  }
+}
